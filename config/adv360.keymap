@@ -22,6 +22,19 @@
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
+ 
+    td_lshift: td_lshift {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp LSHIFT>, <&kp CAPS>;
+    };
+    td_rshift: td_rshift {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp RSHIFT>, <&caps_word>;
+    };
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
