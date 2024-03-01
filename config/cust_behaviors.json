@@ -1,0 +1,18 @@
+[
+	{
+		"code": "&td_lshift",
+		"name": "&td_lshift",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&td_rshift",
+		"name": "&td_rshift",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
