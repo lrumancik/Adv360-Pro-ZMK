@@ -1,0 +1,5 @@
+the online configurator will wipe your changes to the keymap
+
+1) update key layout on online configurator, make sure to commit
+2) locally fetch changes that the online configurator commited to github
+3) apply these changes manually by merging in this branch, idk if there is a better way to do it or not

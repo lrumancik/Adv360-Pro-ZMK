@@ -28,6 +28,21 @@
       };
     };
 
+    behaviors {
+      td_lshift: td_lshift {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <200>;
+          bindings = <&kp LSHIFT>, <&kp CAPS>;
+      };
+      td_rshift: td_rshift {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <200>;
+          bindings = <&kp RSHIFT>, <&caps_word>;
+      };
+    };
+
   keymap {
     compatible = "zmk,keymap";
 
